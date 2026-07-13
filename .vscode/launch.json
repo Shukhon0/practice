@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run and Debug C File",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "cwd": "${fileDirname}",
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\MSYS2\\ucrt64\\bin\\gdb.exe", // <-- Updated
+            "preLaunchTask": "Compile C File"
+        }
+    ]
+}
