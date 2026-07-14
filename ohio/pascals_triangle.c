@@ -11,7 +11,7 @@ void main () {
     scanf("%d",&n);
     for (int i=0;i<=n;i++) {
         for (int j=0;j<=i;j++) {
-            for (;;) {
+            for (j;j<(i/2);j) {
                 printf(" ");
             }
             printf("%d ",ncr(i,j));
