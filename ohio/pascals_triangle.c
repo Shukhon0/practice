@@ -9,8 +9,8 @@ int ncr(int a,int b) {
 void main () {
     scanf("%d",&n);
     for (int i=0;i<n;i++) {
-        for (int j;j<i;j++) {
-            printf("%d ",ncr(i,j));
+        for (int j=0;j<=i;j++) {
+            printf("%d ",ncr(n-i-1,j));
         }
         printf("\n");
     }
