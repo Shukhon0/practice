@@ -11,5 +11,8 @@ int max () {
     
 };
 void main () {
-
+    int array[100];
+    for (int i=0;i<n;i++) {
+        scanf("%d",&array[i]);
+    }
 };
