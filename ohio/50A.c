@@ -1,6 +1,9 @@
 #include <stdio.h>
-void main () {
+int main () {
     int m,n;
     scanf("%d %d",&m,&n);
+    if (m>=1 && n>=m && m<=16) {
     printf("%d",((m*n)/2));
+    };
+    return 0;
 }
