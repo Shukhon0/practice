@@ -1,6 +1,7 @@
 #include <stdio.h>
 void main () {
-    int a=3,num=20;
+    int a,num;
+    scanf("%d %d",&a,&num);
     if (a!=0 && num/a){
         printf("sigma");
     }
