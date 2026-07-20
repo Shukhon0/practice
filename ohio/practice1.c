@@ -1,5 +1,5 @@
 #include <stdio.h>
-    unsigned int n,i;
+unsigned int n,i;
 unsigned int pattern (unsigned int x) {
     unsigned int val;
     if (x==1) {val=1;}
